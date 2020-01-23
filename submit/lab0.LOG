@@ -1,0 +1,179 @@
+Script started on 2020-01-23 11:57:32-05:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="80" LINES="24"]
+bmarti38@g7-28:~/tmp/lab0$ ls ~/.ssh 
+ls: cannot access '/home/bmarti38/.ssh': No such file or directory
+bmarti38@g7-28:~/tmp/lab0$ ls ~/.ssh
+ls: cannot access '/home/bmarti38/.ssh': No such file or directory
+bmarti38@g7-28:~/tmp/lab0$ ls
+lab0.LOG
+bmarti38@g7-28:~/tmp/lab0$ ssh -[K[K-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/bmarti38/.ssh/id_rsa): bmarti38
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in bmarti38.
+Your public key has been saved in bmarti38.pub.
+The key fingerprint is:
+SHA256:nK4/oQwffQskFif9HakPJSXJ7gHz94D5eLsY6FOUN4k bmarti38@g7-28
+The key's randomart image is:
++---[RSA 2048]----+
+|       . ..o..   |
+|      o = +.+    |
+|       + * X o   |
+|      o...E B    |
+|     . +So O +   |
+|    . ..+.= + .  |
+|     + oo=.o .   |
+|      +oo .o.    |
+|      ..oo. ..   |
++----[SHA256]-----+
+bmarti38@g7-28:~/tmp/lab0$ ssh [K-copy-id -i bmart83[K[K38[K[Ki38@remote
+/usr/bin/ssh-copy-id: ERROR: no ID file found
+bmarti38@g7-28:~/tmp/lab0$ ~/.profile.~[K
+bash: /home/bmarti38/.profile.: No such file or directory
+bmarti38@g7-28:~/tmp/lab0$ ~[K~/.profile.
+bash: /home/bmarti38/.profile.: No such file or directory
+bmarti38@g7-28:~/tmp/lab0$ 
+bmarti38@g7-28:~/tmp/lab0$ . ~umrigar/cs240/bin/student.profile
+bash: /home/umrigar/cs240/bin/student.profile: Permission denied
+bmarti38@g7-28:~/tmp/lab0$ ~/.profile. . ~umrigar/cs240/bin/student.profile
+bash: /home/bmarti38/.profile.: No such file or directory
+bmarti38@g7-28:~/tmp/lab0$ vi [K[K[Kgedit `[K~/.pri[Kofile
+
+(gedit:149424): Gtk-[1;33mWARNING[0m **: [34m12:13:33.501[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+
+bmarti38@g7-28:~/tmp/lab0$ 
+bmarti38@g7-28:~/tmp/lab0$ 
+bmarti38@g7-28:~/tmp/lab0$ gedit ~/.bashrc &
+[1] 149621
+bmarti38@g7-28:~/tmp/lab0$ 
+(gedit:149621): Gtk-[1;33mWARNING[0m **: [34m12:15:09.358[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+[1]+  Done                    gedit ~/.bashrc
+bmarti38@g7-28:~/tmp/lab0$ ssh://bmarti38#[K@remote.cs.binghamtone[K.edu/~uu[Kmrigar/git- repos/cs240.git
+bash: ssh://bmarti38@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git: No such file or directory
+bmarti38@g7-28:~/tmp/lab0$ mkdir -p ~/projecrs[K[Kts
+bmarti38@g7-28:~/tmp/lab0$ cd ~/projects
+bmarti38@g7-28:~/projects$ git clone ABOVE_URL
+fatal: repository 'ABOVE_URL' does not exist
+bmarti38@g7-28:~/projects$ git clone ssh://user@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git
+Cloning into 'cs240'...
+The authenticity of host 'remote.cs.binghamton.edu (128.226.114.206)' can't be established.
+ECDSA key fingerprint is SHA256:UEIh1TASIC96TC1hhxVbkVS0DrddNKHk7Q2nzgDCt+Y.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'remote.cs.binghamton.edu,128.226.114.206' (ECDSA) to the list of known hosts.
+user@remote.cs.binghamton.edu's password: 
+Permission denied, please try again.
+user@remote.cs.binghamton.edu's password: 
+
+Permission denied, please try again.
+user@remote.cs.binghamton.edu's password: 
+Connection closed by 128.226.114.206 port 22
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+bmarti38@g7-28:~/projects$ git clone ssh://user@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@remote.cs.binghamton.edu/~umrigar/[1Pgit-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@remote.cs.binghamton.edu/~umrigar/g[1Pit-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@remote.cs.binghamton.edu/~umrigar/gi[1Pt-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@remote.cs.binghamton.edu/~umrigar/git[1P-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C8@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Cloning into 'cs240'...
+Warning: Permanently added the ECDSA host key for IP address '128.226.114.201' to the list of known hosts.
+bmarti38@remote.cs.binghamton.edu's password: 
+/home/bmarti38/.bashrc: line 1: /home/umrigar/cs240/bin/student.rc: Permission denied
+remote: Enumerating objects: 203, done.[K
+remote: Counting objects:   0% (1/203)   [Kremote: Counting objects:   1% (3/203)   [Kremote: Counting objects:   2% (5/203)   [Kremote: Counting objects:   3% (7/203)   [Kremote: Counting objects:   4% (9/203)   [Kremote: Counting objects:   5% (11/203)   [Kremote: Counting objects:   6% (13/203)   [Kremote: Counting objects:   7% (15/203)   [Kremote: Counting objects:   8% (17/203)   [Kremote: Counting objects:   9% (19/203)   [Kremote: Counting objects:  10% (21/203)   [Kremote: Counting objects:  11% (23/203)   [Kremote: Counting objects:  12% (25/203)   [Kremote: Counting objects:  13% (27/203)   [Kremote: Counting objects:  14% (29/203)   [Kremote: Counting objects:  15% (31/203)   [Kremote: Counting objects:  16% (33/203)   [Kremote: Counting objects:  17% (35/203)   [Kremote: Counting objects:  18% (37/203)   [Kremote: Counting objects:  19% (39/203)   [Kremote: Counting objects:  20% (41/203)   [Kremote: Counting objects:  21% (43/203)   [Kremote: Counting objects:  22% (45/203)   [Kremote: Counting objects:  23% (47/203)   [Kremote: Counting objects:  24% (49/203)   [Kremote: Counting objects:  25% (51/203)   [Kremote: Counting objects:  26% (53/203)   [Kremote: Counting objects:  27% (55/203)   [Kremote: Counting objects:  28% (57/203)   [Kremote: Counting objects:  29% (59/203)   [Kremote: Counting objects:  30% (61/203)   [Kremote: Counting objects:  31% (63/203)   [Kremote: Counting objects:  32% (65/203)   [Kremote: Counting objects:  33% (67/203)   [Kremote: Counting objects:  34% (70/203)   [Kremote: Counting objects:  35% (72/203)   [Kremote: Counting objects:  36% (74/203)   [Kremote: Counting objects:  37% (76/203)   [Kremote: Counting objects:  38% (78/203)   [Kremote: Counting objects:  39% (80/203)   [Kremote: Counting objects:  40% (82/203)   [Kremote: Counting objects:  41% (84/203)   [Kremote: Counting objects:  42% (86/203)   [Kremote: Counting objects:  43% (88/203)   [Kremote: Counting objects:  44% (90/203)   [Kremote: Counting objects:  45% (92/203)   [Kremote: Counting objects:  46% (94/203)   [Kremote: Counting objects:  47% (96/203)   [Kremote: Counting objects:  48% (98/203)   [Kremote: Counting objects:  49% (100/203)   [Kremote: Counting objects:  50% (102/203)   [Kremote: Counting objects:  51% (104/203)   [Kremote: Counting objects:  52% (106/203)   [Kremote: Counting objects:  53% (108/203)   [Kremote: Counting objects:  54% (110/203)   [Kremote: Counting objects:  55% (112/203)   [Kremote: Counting objects:  56% (114/203)   [Kremote: Counting objects:  57% (116/203)   [Kremote: Counting objects:  58% (118/203)   [Kremote: Counting objects:  59% (120/203)   [Kremote: Counting objects:  60% (122/203)   [Kremote: Counting objects:  61% (124/203)   [Kremote: Counting objects:  62% (126/203)   [Kremote: Counting objects:  63% (128/203)   [Kremote: Counting objects:  64% (130/203)   [Kremote: Counting objects:  65% (132/203)   [Kremote: Counting objects:  66% (134/203)   [Kremote: Counting objects:  67% (137/203)   [Kremote: Counting objects:  68% (139/203)   [Kremote: Counting objects:  69% (141/203)   [Kremote: Counting objects:  70% (143/203)   [Kremote: Counting objects:  71% (145/203)   [Kremote: Counting objects:  72% (147/203)   [Kremote: Counting objects:  73% (149/203)   [Kremote: Counting objects:  74% (151/203)   [Kremote: Counting objects:  75% (153/203)   [Kremote: Counting objects:  76% (155/203)   [Kremote: Counting objects:  77% (157/203)   [Kremote: Counting objects:  78% (159/203)   [Kremote: Counting objects:  79% (161/203)   [Kremote: Counting objects:  80% (163/203)   [Kremote: Counting objects:  81% (165/203)   [Kremote: Counting objects:  82% (167/203)   [Kremote: Counting objects:  83% (169/203)   [Kremote: Counting objects:  84% (171/203)   [Kremote: Counting objects:  85% (173/203)   [Kremote: Counting objects:  86% (175/203)   [Kremote: Counting objects:  87% (177/203)   [Kremote: Counting objects:  88% (179/203)   [Kremote: Counting objects:  89% (181/203)   [Kremote: Counting objects:  90% (183/203)   [Kremote: Counting objects:  91% (185/203)   [Kremote: Counting objects:  92% (187/203)   [Kremote: Counting objects:  93% (189/203)   [Kremote: Counting objects:  94% (191/203)   [Kremote: Counting objects:  95% (193/203)   [Kremote: Counting objects:  96% (195/203)   [Kremote: Counting objects:  97% (197/203)   [Kremote: Counting objects:  98% (199/203)   [Kremote: Counting objects:  99% (201/203)   [Kremote: Counting objects: 100% (203/203)   [Kremote: Counting objects: 100% (203/203), done.[K
+remote: Compressing objects:   0% (1/194)   [Kremote: Compressing objects:   1% (2/194)   [Kremote: Compressing objects:   2% (4/194)   [Kremote: Compressing objects:   3% (6/194)   [Kremote: Compressing objects:   4% (8/194)   [Kremote: Compressing objects:   5% (10/194)   [Kremote: Compressing objects:   6% (12/194)   [Kremote: Compressing objects:   7% (14/194)   [Kremote: Compressing objects:   8% (16/194)   [Kremote: Compressing objects:   9% (18/194)   [Kremote: Compressing objects:  10% (20/194)   [Kremote: Compressing objects:  11% (22/194)   [Kremote: Compressing objects:  12% (24/194)   [Kremote: Compressing objects:  13% (26/194)   [Kremote: Compressing objects:  14% (28/194)   [Kremote: Compressing objects:  15% (30/194)   [Kremote: Compressing objects:  16% (32/194)   [Kremote: Compressing objects:  17% (33/194)   [Kremote: Compressing objects:  18% (35/194)   [Kremote: Compressing objects:  19% (37/194)   [Kremote: Compressing objects:  20% (39/194)   [Kremote: Compressing objects:  21% (41/194)   [Kremote: Compressing objects:  22% (43/194)   [Kremote: Compressing objects:  23% (45/194)   [Kremote: Compressing objects:  24% (47/194)   [Kremote: Compressing objects:  25% (49/194)   [Kremote: Compressing objects:  26% (51/194)   [Kremote: Compressing objects:  27% (53/194)   [Kremote: Compressing objects:  28% (55/194)   [Kremote: Compressing objects:  29% (57/194)   [Kremote: Compressing objects:  30% (59/194)   [Kremote: Compressing objects:  31% (61/194)   [Kremote: Compressing objects:  32% (63/194)   [Kremote: Compressing objects:  33% (65/194)   [Kremote: Compressing objects:  34% (66/194)   [Kremote: Compressing objects:  35% (68/194)   [Kremote: Compressing objects:  36% (70/194)   [Kremote: Compressing objects:  37% (72/194)   [Kremote: Compressing objects:  38% (74/194)   [Kremote: Compressing objects:  39% (76/194)   [Kremote: Compressing objects:  40% (78/194)   [Kremote: Compressing objects:  41% (80/194)   [Kremote: Compressing objects:  42% (82/194)   [Kremote: Compressing objects:  43% (84/194)   [Kremote: Compressing objects:  44% (86/194)   [Kremote: Compressing objects:  45% (88/194)   [Kremote: Compressing objects:  46% (90/194)   [Kremote: Compressing objects:  47% (92/194)   [Kremote: Compressing objects:  48% (94/194)   [Kremote: Compressing objects:  49% (96/194)   [Kremote: Compressing objects:  50% (97/194)   [Kremote: Compressing objects:  51% (99/194)   [Kremote: Compressing objects:  52% (101/194)   [Kremote: Compressing objects:  53% (103/194)   [Kremote: Compressing objects:  54% (105/194)   [Kremote: Compressing objects:  55% (107/194)   [Kremote: Compressing objects:  56% (109/194)   [Kremote: Compressing objects:  57% (111/194)   [Kremote: Compressing objects:  58% (113/194)   [Kremote: Compressing objects:  59% (115/194)   [Kremote: Compressing objects:  60% (117/194)   [Kremote: Compressing objects:  61% (119/194)   [Kremote: Compressing objects:  62% (121/194)   [Kremote: Compressing objects:  63% (123/194)   [Kremote: Compressing objects:  64% (125/194)   [Kremote: Compressing objects:  65% (127/194)   [Kremote: Compressing objects:  66% (129/194)   [Kremote: Compressing objects:  67% (130/194)   [Kremote: Compressing objects:  68% (132/194)   [Kremote: Compressing objects:  69% (134/194)   [Kremote: Compressing objects:  70% (136/194)   [Kremote: Compressing objects:  71% (138/194)   [Kremote: Compressing objects:  72% (140/194)   [Kremote: Compressing objects:  73% (142/194)   [Kremote: Compressing objects:  74% (144/194)   [Kremote: Compressing objects:  75% (146/194)   [Kremote: Compressing objects:  76% (148/194)   [Kremote: Compressing objects:  77% (150/194)   [Kremote: Compressing objects:  78% (152/194)   [Kremote: Compressing objects:  79% (154/194)   [Kremote: Compressing objects:  80% (156/194)   [Kremote: Compressing objects:  81% (158/194)   [Kremote: Compressing objects:  82% (160/194)   [Kremote: Compressing objects:  83% (162/194)   [Kremote: Compressing objects:  84% (163/194)   [Kremote: Compressing objects:  85% (165/194)   [Kremote: Compressing objects:  86% (167/194)   [Kremote: Compressing objects:  87% (169/194)   [Kremote: Compressing objects:  88% (171/194)   [Kremote: Compressing objects:  89% (173/194)   [Kremote: Compressing objects:  90% (175/194)   [Kremote: Compressing objects:  91% (177/194)   [Kremote: Compressing objects:  92% (179/194)   [Kremote: Compressing objects:  93% (181/194)   [Kremote: Compressing objects:  94% (183/194)   [Kremote: Compressing objects:  95% (185/194)   [Kremote: Compressing objects:  96% (187/194)   [Kremote: Compressing objects:  97% (189/194)   [Kremote: Compressing objects:  98% (191/194)   [Kremote: Compressing objects:  99% (193/194)   [Kremote: Compressing objects: 100% (194/194)   [Kremote: Compressing objects: 100% (194/194), done.[K
+Receiving objects:   0% (1/203)   Receiving objects:   1% (3/203)   Receiving objects:   2% (5/203)   Receiving objects:   3% (7/203)   Receiving objects:   4% (9/203)   Receiving objects:   5% (11/203)   Receiving objects:   6% (13/203)   Receiving objects:   7% (15/203)   Receiving objects:   8% (17/203)   Receiving objects:   9% (19/203)   Receiving objects:  10% (21/203)   Receiving objects:  11% (23/203)   Receiving objects:  12% (25/203)   Receiving objects:  13% (27/203)   Receiving objects:  14% (29/203)   Receiving objects:  15% (31/203)   Receiving objects:  16% (33/203)   Receiving objects:  17% (35/203)   Receiving objects:  18% (37/203)   Receiving objects:  19% (39/203)   Receiving objects:  20% (41/203)   Receiving objects:  21% (43/203)   Receiving objects:  22% (45/203)   Receiving objects:  23% (47/203)   Receiving objects:  24% (49/203)   Receiving objects:  25% (51/203)   Receiving objects:  26% (53/203)   Receiving objects:  27% (55/203)   Receiving objects:  28% (57/203)   Receiving objects:  29% (59/203)   Receiving objects:  30% (61/203)   Receiving objects:  31% (63/203)   Receiving objects:  32% (65/203)   Receiving objects:  33% (67/203)   Receiving objects:  34% (70/203)   Receiving objects:  35% (72/203)   Receiving objects:  36% (74/203)   Receiving objects:  37% (76/203)   Receiving objects:  38% (78/203)   Receiving objects:  39% (80/203)   Receiving objects:  40% (82/203)   Receiving objects:  41% (84/203)   Receiving objects:  42% (86/203)   Receiving objects:  43% (88/203)   Receiving objects:  44% (90/203)   Receiving objects:  45% (92/203)   Receiving objects:  46% (94/203)   Receiving objects:  47% (96/203)   Receiving objects:  48% (98/203)   Receiving objects:  49% (100/203)   Receiving objects:  50% (102/203)   Receiving objects:  51% (104/203)   Receiving objects:  52% (106/203)   Receiving objects:  53% (108/203)   Receiving objects:  54% (110/203)   Receiving objects:  55% (112/203)   Receiving objects:  56% (114/203)   Receiving objects:  57% (116/203)   Receiving objects:  58% (118/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  59% (120/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  60% (122/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  61% (124/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  62% (126/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  63% (128/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  64% (130/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  65% (132/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  66% (134/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  67% (137/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  68% (139/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  69% (141/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  70% (143/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  71% (145/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  72% (147/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  73% (149/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  74% (151/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  75% (153/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  76% (155/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  77% (157/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  78% (159/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  79% (161/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  80% (163/203), 2.79 MiB | 5.54 MiB/s   remote: Total 203 (delta 84), reused 0 (delta 0)[K
+Receiving objects:  81% (165/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  82% (167/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  83% (169/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  84% (171/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  85% (173/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  86% (175/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  87% (177/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  88% (179/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  89% (181/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  90% (183/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  91% (185/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  92% (187/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  93% (189/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  94% (191/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  95% (193/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  96% (195/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  97% (197/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  98% (199/203), 2.79 MiB | 5.54 MiB/s   Receiving objects:  99% (201/203), 2.79 MiB | 5.54 MiB/s   Receiving objects: 100% (203/203), 2.79 MiB | 5.54 MiB/s   Receiving objects: 100% (203/203), 3.04 MiB | 5.81 MiB/s, done.
+Resolving deltas:   0% (0/84)   Resolving deltas:   5% (5/84)   Resolving deltas:   9% (8/84)   Resolving deltas:  10% (9/84)   Resolving deltas:  11% (10/84)   Resolving deltas:  13% (11/84)   Resolving deltas:  16% (14/84)   Resolving deltas:  28% (24/84)   Resolving deltas:  32% (27/84)   Resolving deltas:  39% (33/84)   Resolving deltas:  41% (35/84)   Resolving deltas:  51% (43/84)   Resolving deltas:  53% (45/84)   Resolving deltas:  55% (47/84)   Resolving deltas:  60% (51/84)   Resolving deltas:  61% (52/84)   Resolving deltas:  63% (53/84)   Resolving deltas:  65% (55/84)   Resolving deltas:  66% (56/84)   Resolving deltas:  69% (58/84)   Resolving deltas:  72% (61/84)   Resolving deltas:  79% (67/84)   Resolving deltas:  82% (69/84)   Resolving deltas:  83% (70/84)   Resolving deltas:  84% (71/84)   Resolving deltas:  85% (72/84)   Resolving deltas:  86% (73/84)   Resolving deltas:  89% (75/84)   Resolving deltas:  97% (82/84)   Resolving deltas: 100% (84/84)   Resolving deltas: 100% (84/84), done.
+bmarti38@g7-28:~/projects$ cd ~
+bmarti38@g7-28:~$ ln -s projects/cs240
+bmarti38@g7-28:~$ ln -s projects [K/cs240 .
+ln: failed to create symbolic link './cs240': File exists
+bmarti38@g7-28:~$ cd ~git-repos/cs240
+bash: cd: ~git-repos/cs240: No such file or directory
+bmarti38@g7-28:~$ cd [K[K[Kdir[K[K[Kdir 
+cs240	   lab2    lab5.c    project-1-spr19-ben5168  Public
+Desktop    lab2.c  lab8.s    project-2-spr19-ben5168  Templates
+Documents  lab3    Music     project-3-spr19-ben5168  tmp
+Downloads  lab3.c  Pictures  projects		      Videos
+bmarti38@g7-28:~$ cd projects
+bmarti38@g7-28:~/projects$ dir
+cs240
+bmarti38@g7-28:~/projects$ git pull
+fatal: not a git repository (or any parent up to mount point /import)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+bmarti38@g7-28:~/projects$ cd cs240/
+bmarti38@g7-28:~/projects/cs240$ l[Kd[Kgit pull
+bmarti38@remote.cs.binghamton.edu's password: 
+/home/bmarti38/.bashrc: line 1: /home/umrigar/cs240/bin/student.rc: Permission denied
+Already up to date.
+bmarti38@g7-28:~/projects/cs240$ editor [K=gedit crontab -e
+crontabs: No such file or directory
+bmarti38@g7-28:~/projects/cs240$ EDT[KITOR [K= [KGED[K[K[K[K[K[K[K[K[K[Keditor=gedit crontab -e[C[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K
+
+(gedit:151421): Gtk-[1;33mWARNING[0m **: [34m12:31:57.605[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bmarti38@g7-28:~/projects/cs240$ dir
+announce.html  crontab	      exercises   index.umt  projects	umt.make
+announce.umt   docs	      hws	  labs	     README.md
+assets	       exams-quizzes  index.html  misc	     slides
+bmarti38@g7-28:~/projects/cs240$ crontta[K[Kab -l | tia[K[Kail
+crontabs: No such file or directory
+bmarti38@g7-28:~/projects/cs240$ cd crontab 
+bash: cd: crontab: Not a directory
+bmarti38@g7-28:~/projects/cs240$ dir
+announce.html  crontab	      exercises   index.umt  projects	umt.make
+announce.umt   docs	      hws	  labs	     README.md
+assets	       exams-quizzes  index.html  misc	     slides
+bmarti38@g7-28:~/projects/cs240$ crontt[Kab -l | ti[Kail
+crontabs: No such file or directory
+bmarti38@g7-28:~/projects/cs240$ vi tet.[K[Kst.py
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"test.py" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll]2;test.py (~/projects/cs240) - VIM]1;test.py[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll"test.py" [New File][1;1H[?25h[?25l[24;53Hi[1;1H[24;53H [1;1H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?25h[?25lp[24;63H1,2]2;test.py + (~/projects/cs240) - VIM]1;test.py[1;2H[?25h[?25lr[24;65H3[1;3H[?25h[?25li[24;65H4[1;4H[?25h[?25ln[24;65H5[1;5H[?25h[?25l[1m[96mprint[m[24;65H6[1;6H[?25h[?25l([24;65H7[1;7H[?25h[?25l[95m"[m[24;65H8[1;8H[?25h[?25l[95mH[m[24;65H9[1;9H[?25h[?25l[95me[m[24;65H10[1;10H[?25h[?25l[95ml[m[24;66H1[1;11H[?25h[?25l[95ml[m[24;66H2[1;12H[?25h[?25l[95mo[m[24;66H3[1;13H[?25h[?25l[95mw[m[24;66H4[1;14H[?25h[?25l[1;13H[K[24;66H3[1;13H[?25h[?25l[95m [m[24;66H4[1;14H[?25h[?25l[95mW[m[24;66H5[1;15H[?25h[?25l[95mo[m[24;66H6[1;16H[?25h[?25l[95mr[m[24;66H7[1;17H[?25h[?25l[95ml[m[24;66H8[1;18H[?25h[?25l[95md[m[24;66H9[1;19H[?25h[?25l[95m"[m[24;65H20[1;20H[?25h[?25l)[1;6H[46m([13C)[m[24;66H1[1;21H[?25h[?25l[2;1H[K[1;6H([13C)[24;63H2,1 [2;1H[?25h[24;1H[K[2;1H[?25l[24;53H^[[2;1H[24;53H  [2;1H[24;63H2,0-1[9CAll[2;1H[?25h[?25l[24;53H:[2;1H[24;53H[K[24;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l"test.py" [New] 2L, 22C written]2;Terminal - ]1;Terminal - [23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tbmarti38@g7-28:~/projects/cs240$ ls
+announce.html  crontab	      exercises   index.umt  projects	test.py
+announce.umt   docs	      hws	  labs	     README.md	umt.make
+assets	       exams-quizzes  index.html  misc	     slides
+bmarti38@g7-28:~/projects/cs240$ [y[K[Kpython test.py 
+Hello World
+bmarti38@g7-28:~/projects/cs240$ rm test.py 
+bmarti38@g7-28:~/projects/cs240$ s[Kls
+announce.html  crontab	      exercises   index.umt  projects	umt.make
+announce.umt   docs	      hws	  labs	     README.md
+assets	       exams-quizzes  index.html  misc	     slides
+bmarti38@g7-28:~/projects/cs240$ git log -N
+fatal: unrecognized argument: -N
+bmarti38@g7-28:~/projects/cs240$ git log -5
+[?1h=[33mcommit 24681db1cd13af495d8c1511f77123e5d91ed1dd[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31m[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31morigin/HEAD[m[33m)[m[m
+Author: zerksis umrigar <umrigar@binghamton.edu>[m
+Date:   Thu Jan 23 08:17:24 2020 -0500[m
+[m
+    added grading guidelines[m
+[m
+[33mcommit b28da302c11169a1a76ebab0b25099bb8241c34b[m[m
+Author: zerksis umrigar <umrigar@binghamton.edu>[m
+Date:   Wed Jan 22 22:01:19 2020 -0500[m
+[m
+    update syllabus and lab0 with TA info[m
+[m
+[33mcommit 8d242d7ee425f9c85f96bb6923179e7390091716[m[m
+Author: zerksis umrigar <umrigar@binghamton.edu>[m
+Date:   Wed Jan 22 12:34:04 2020 -0500[m
+[m
+    tweaks[m
+[m
+[33mcommit e1347fe43738124771013ec1a789ec5e3d9ae284[m[m
+Author: zerksis umrigar <umrigar@binghamton.edu>[m
+Date:   Wed Jan 22 11:34:26 2020 -0500[m
+[m
+:[K[K    set up for first class[m
+:[K[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit ea05f32cd65d11085f51d64a2d0a7037344af924[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: zerksis umrigar <umrigar@binghamton.edu>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Tue Jan 21 20:44:04 2020 -0500[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    added config[m
+:[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KESCESC[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM    added grading guidelines[m
+[24;1H[K:[K[K [KESCESC[
