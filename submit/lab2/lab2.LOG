@@ -1,0 +1,150 @@
+Script started on 2020-02-06 11:57:55-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2$ ls
+1-hello  2-hello  3-overload  lab2.LOG	Makefile
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2$ cd [K/[K[K[Kls
+1-hello  2-hello  3-overload  lab2.LOG	Makefile
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2$ cd 1-hello/
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/1-hello$ ls
+hello.cc  Makefile  README
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/1-hello$ ls -l
+total 12
+-rw-r--r-- 1 bmarti38 bmarti38 363 Feb  6 11:50 hello.cc
+-rw-r--r-- 1 bmarti38 bmarti38  39 Feb  6 11:50 Makefile
+-rw-r--r-- 1 bmarti38 bmarti38  61 Feb  6 11:50 README
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/1-hello$ re[K[Kgedit r[KREADME 
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/1-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/1-hello$ ./hello
+usage: ./hello NAME...
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/1-hello$ he[K[K./hello b art lisa
+hello bart
+hello lisa
+hello bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/1-hello$ gdb hello [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ko
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from hello...done.
+(gdb) start bart lisa
+Temporary breakpoint 1 at 0x11cd: file hello.cc, line 13.
+Starting program: /import/linux/home1/bmarti38/i240a/submit/lab2/1-hello/hello bart lisa
+
+Temporary breakpoint 1, main (argc=3, argv=0x7fffffffe768) at hello.cc:13
+13	  if (argc == 1) {
+(gdb) l
+8	}
+9	
+10	int 
+11	main(int argc, const char *argv[])
+12	{
+13	  if (argc == 1) {
+14	    std::cerr << "usage: " << argv[0] << " NAME..." << std::endl;
+15	    std::exit(1);
+16	  }
+17	  else {
+(gdb) say[K[K[Kb sayHello
+Breakpoint 2 at 0x555555555181: file hello.cc, line 7.
+(gdb) say hello[K[K[K[K[K[K[K[K[Ksay h[K[K[K[K[Kp argc
+$1 = 3
+(gdb) pa rgv[K[K[K[K[K argv
+$2 = (const char **) 0x7fffffffe768
+(gdb) p argv[0]
+$3 = 0x7fffffffea5e "/import/linux/home1/bmarti38/i240a/submit/lab2/1-hello/hello"
+(gdb) p arv[Kgv [1]
+$4 = 0x7fffffffea9b "bart"
+(gdb) *arg@3
+Undefined command: "".  Try "help".
+(gdb) n
+18	    for (int i = 1; i <= argc; i++) {
+(gdb) n
+19	      sayHello(argv[i]);
+(gdb) c. say[K[K[K[KsayHello()
+Not stopped at any breakpoint; argument ignored.
+Continuing.
+
+Breakpoint 2, sayHello (name=0x7fffffffea9b "bart") at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) up
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe768) at hello.cc:19
+19	      sayHello(argv[i]);
+(gdb) down[K[K[K[Kdown
+#0  sayHello (name=0x7fffffffea9b "bart") at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) c [K.sayHello()
+A syntax error in expression, near `.sayHello()'.
+(gdb) c.sayHello()
+A syntax error in expression, near `.sayHello()'.
+(gdb) c. sayHello()
+A syntax error in expression, near `. sayHello()'.
+(gdb) c say he[K[K[KHello()
+Too few arguments in function call.
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 10660] will be killed.
+
+Quit anyway? (y or n) y
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/1-hello$ gedit hello.cc
+
+(gedit:13472): Gtk-[1;33mWARNING[0m **: [34m12:20:36.838[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/1-hello$ make 
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/1-hello$ ./hello
+usage: ./hello NAME...
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/1-hello$ ./hello l isa[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb art lisa
+hello bart
+hello lisa
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/1-hello$ cd ..
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2$ s[Kcd 2-hello/
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/2-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/2-hello$ ./hello l isa ab[K[Kbart
+Hello Lisa
+Hello Bart
+Segmentation fault
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/2-hello$ ./hello l isa[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K ' lisa sims[Kpson' 'bar [Kt si,[Kmpson'
+Hello Lisa Simpson9V
+Hello Bart Simpson9V
+Segmentation fault
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/2-hello$ gdb hello [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ko
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from hello...done.
+(gdb) starrt[K[Kt bart lisa
+Temporary breakpoint 1 at 0x12e1: file hello.cc, line 36.
+Starting program: /import/linux/home1/bmarti38/i240a/submit/lab2/2-hello/hello bart lisa
+
+Temporary breakpoint 1, main (argc=3, argv=0x7fffffffe768) at hello.cc:36
+36	  if (argc == 1) {
+(gdb) down
+Bottom (innermost) frame selected; you cannot go down.
+(gdb) up
+I
