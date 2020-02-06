@@ -147,4 +147,148 @@ Temporary breakpoint 1, main (argc=3, argv=0x7fffffffe768) at hello.cc:36
 (gdb) down
 Bottom (innermost) frame selected; you cannot go down.
 (gdb) up
-I
+Initial frame selected; you cannot go up.
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 14433] will be killed.
+
+Quit anyway? (y or n) y
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/2-hello$ gedit hello.cc
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/2-hello$ gdc [K[Ks[Kc[Kb hekk[K[Kllo [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ko
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from hello...done.
+(gdb) start bart lisa [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kc[Kc s[Kf [K(
+Display all 200 possibilities? (y or n)
+(gdb) c f([K[K[K[Kstart
+Temporary breakpoint 1 at 0x12e1: file hello.cc, line 36.
+Starting program: /import/linux/home1/bmarti38/i240a/submit/lab2/2-hello/hello 
+
+Temporary breakpoint 1, main (argc=1, argv=0x7fffffffe788) at hello.cc:36
+36	  if (argc == 1) {
+(gdb) n
+37	    std::cerr << "usage: " << argv[0] << " NAME..." << std::endl;
+(gdb) n
+usage: /import/linux/home1/bmarti38/i240a/submit/lab2/2-hello/hello NAME...
+38	    std::exit(1);
+(gdb) n
+[Inferior 1 (process 14993) exited with code 01]
+(gdb) 
+The program is not being run.
+(gdb) q
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/2-hello$ gedit hel lo
+
+(gedit:15508): GLib-GObject-[1;33mWARNING[0m **: [34m12:30:21.061[0m: invalid unclassed pointer in cast to 'GeditOpenDocumentSelector'
+
+(gedit:15508): Gtk-[1;35mCRITICAL[0m **: [34m12:30:21.061[0m: gtk_list_store_clear: assertion 'GTK_IS_LIST_STORE (list_store)' failed
+
+(gedit:15508): Gtk-[1;35mCRITICAL[0m **: [34m12:30:21.061[0m: gtk_widget_set_visible: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(gedit:15508): Gtk-[1;35mCRITICAL[0m **: [34m12:30:21.061[0m: gtk_widget_set_visible: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(gedit:15508): GLib-GObject-[1;33mWARNING[0m **: [34m12:30:21.061[0m: invalid unclassed pointer in cast to 'GeditOpenDocumentSelector'
+
+(gedit:15508): Gtk-[1;35mCRITICAL[0m **: [34m12:30:21.061[0m: gtk_list_store_clear: assertion 'GTK_IS_LIST_STORE (list_store)' failed
+
+(gedit:15508): Gtk-[1;35mCRITICAL[0m **: [34m12:30:21.061[0m: gtk_widget_set_visible: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(gedit:15508): Gtk-[1;35mCRITICAL[0m **: [34m12:30:21.061[0m: gtk_widget_set_visible: assertion 'GTK_IS_WIDGET (widget)' failed
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/2-hello$ gedit hel lo.cc
+
+(gedit:15641): Gtk-[1;33mWARNING[0m **: [34m12:30:49.945[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/2-hello$ ./[K[Kmake 
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/2-hello$ /[K./j[Khello b art lisa
+Hello Bart
+Hello Lisa
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/2-hello$ ./hello 'lisa  simpson' 'bart simpson'
+Hello Lisa  Simpson
+Hello Bart Simpson
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/2-hello$ \[Kcd ..
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2$ cd 3-overload/
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/3-overload$ cd[K[Kmake
+g++ -g -Wall -std=c++17    overload.cc   -o overload
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/3-overload$ run [K[K[K[Koverla [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K./over load
+f(a) = 3; f(&a) = 4; f(a, b) = -1
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/3-overload$ gdb ov erload
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from overload...done.
+(gdb) b f(int)*
+Function "f(int)*" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) f([K[Kb f([K[K[K[Kn
+(gdb) b f(int*)
+Breakpoint 1 at 0x117d: file overload.cc, line 3.
+(gdb) r
+Starting program: /import/linux/home1/bmarti38/i240a/submit/lab2/3-overload/overload 
+
+Breakpoint 1, f (a=0x7fffffffe678) at overload.cc:3
+3	int f(int *a) { return *a * 2; }
+(gdb) p a[K[K a
+$1 = (int *) 0x7fffffffe678
+(gdb) p *a
+$2 = 2
+(gdb) p *a = 5
+$3 = 5
+(gdb) c 
+Continuing.
+f(a) = 3; f(&a) = 10; f(a, b) = 2
+[Inferior 1 (process 16329) exited normally]
+(gdb) cd .[K[K[K[Kq
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2/3-overload$ cd ..
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2$ gi t[K[Kt add *
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2$ git p[Kci[Kommit -a -m  "lab2 complete"
+[master 7432999] lab2 complete
+ 13 files changed, 255 insertions(+)
+ create mode 100644 submit/lab2/1-hello/.gitignore
+ create mode 100644 submit/lab2/1-hello/Makefile
+ create mode 100644 submit/lab2/1-hello/README
+ create mode 100644 submit/lab2/1-hello/hello.cc
+ create mode 100644 submit/lab2/2-hello/.gitignore
+ create mode 100644 submit/lab2/2-hello/Makefile
+ create mode 100644 submit/lab2/2-hello/README
+ create mode 100644 submit/lab2/2-hello/hello.cc
+ create mode 100644 submit/lab2/3-overload/.gitignore
+ create mode 100644 submit/lab2/3-overload/Makefile
+ create mode 100644 submit/lab2/3-overload/overload.cc
+ create mode 100644 submit/lab2/Makefile
+ create mode 100644 submit/lab2/lab2.LOG
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2$ git push
+Username for 'https://github.com': ben5168
+Password for 'https://ben5168@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/ben5168/i240a.git/'
+bmarti38@g7-38:/import/linux/home1/bmarti38/i240a/submit/lab2$ git push
+Username for 'https://github.com': ben5168
+Password for 'https://ben5168@github.com': 
+Enumerating objects: 20, done.
+Counting objects:   5% (1/20)   Counting objects:  10% (2/20)   Counting objects:  15% (3/20)   Counting objects:  20% (4/20)   Counting objects:  25% (5/20)   Counting objects:  30% 
