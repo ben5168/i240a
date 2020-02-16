@@ -21,9 +21,11 @@ readNums(std::vector<std::string> fileNames)
       std::exit(1);
     }
     int i;
-   // while (in >>i) {
-    //  map[i] = (set);
+    int sum = 0;
+    while (in >>i) {
+      sum+=i;
     }
+    map[fileName] = sum;
     if (!in.eof()) {
       std::cerr << "i/o error on file \"" << fileName << "\"" << std::endl;
       std::exit(1);
@@ -37,17 +39,18 @@ operator<<(std::ostream& out, const std::set<std::string>& set)
 {
   for (auto element : set) { out << element << " "; }
   return out;
-}
+  }
 
 static void
-interact(const std::map<int, FileNames>& map)
+interact(const std::map<std::string, int>& map)
 {
-  int i;
+  std::string i;
   std::cout << ">> ";
+  //int sum = 0;
   while (std::cin >> i) {
     try {
-      std::set<std::string> filenames = map.at(i);
-      std::cout << i << ": " << filenames << std::endl;
+      int sum = map.at(i);
+      std::cout << i << ": " << sum << std::endl;
     }
     catch (std::out_of_range& err) {
       std::cout << i << ": " << "NOT FOUND" << std::endl;
@@ -66,4 +69,3 @@ main(int argc, char* argv[])
   auto map = readNums(std::vector<std::string>(&argv[1], &argv[argc]));
   interact(map);
 }
-
