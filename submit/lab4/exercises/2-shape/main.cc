@@ -43,8 +43,8 @@ outShapes(std::ostream& out)
     //if shapeP points to a Rectangle, then call Rectangle::perimeter();
     //choosing the code at runtime is referred to as *runtime polymorphism*.
     auto perim = shapeP->perimeter();
-    
-    out << *shapeP << " perimeter: " << perim << std::endl;
+    auto a = shapeP->area();
+    out << *shapeP << " perimeter: " << perim << "      area: " << a <<  std::endl;
   }
 }
 

@@ -1,7 +1,7 @@
+
 #include "point.hh"
-
 #include <iostream>
-
+#include "line.hh"
 //declare an array of points
 static const Point points[] = {
   Point(0, 0), Point(3, 4), Point(1, 1), Point(4, 5),
@@ -9,13 +9,15 @@ static const Point points[] = {
 //use standard idiom to figure out number of elements in array
 static constexpr auto nPoints = sizeof(points)/sizeof(points[0]);
 
+/*
 static void
 outSizes(std::ostream& out) {
   out << "sizeof(double) = " << sizeof(double) << std::endl;
   out << "sizeof(Point) = " << sizeof(Point) << std::endl;
 }
+*/
 
-/** output pair-wise distance between all points in points[] to out. */
+/*
 static void
 outDistances(std::ostream& out)
 {
@@ -30,7 +32,7 @@ outDistances(std::ostream& out)
     }
   }
 }
-
+*/
 int main() {
 
   //instead of hardcoding std::cout in functions, we pass it as a param.
@@ -38,7 +40,14 @@ int main() {
   //would not need to change (the code in this function would change).
   std::ostream& out = std::cout;
 
-  outDistances(out); out << std::endl;
+  for(auto i = 0u; i <nPoints; i+= 2){
+	  Line l(points[i], points[i+1]);
+	  out << l.toString() << std::endl;
+		
 
-  outSizes(out);
+ //utDistances(out); out << std::endl;
+
+ //utSizes(out);
+
+}
 }
