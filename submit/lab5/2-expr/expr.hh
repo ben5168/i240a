@@ -10,6 +10,7 @@
 class Expr : public ToString {
 public:
   virtual int eval() const = 0;
+  virtual std::string dcCode() const = 0;
 };
 
 //ExprPtr is an alias for a smart shared ptr to an Expr.
@@ -22,6 +23,7 @@ private:
   enum class Private { TAG };
 public:
   const int value;
+  std::string dcCode() const { return std::to_string(value);}
 
   /** Factory function */
   static ExprPtr make(int val) {
@@ -49,6 +51,9 @@ private:
 public:
   const ExprPtr left;
   const ExprPtr right;
+  std::string dcCode() const {
+    return left->dcCode() + " " + right->dcCode() + " +";
+  }
 
   /** Factory function */
   static ExprPtr make(ExprPtr left, ExprPtr right) {
@@ -74,7 +79,9 @@ private:
 public:
   const ExprPtr left;
   const ExprPtr right;
-
+  std::string dcCode() const{
+	  return left->dcCode() + " " + right->dcCode() + " -";
+  }
   /** Factory function */
   static ExprPtr make(ExprPtr left, ExprPtr right) {
     return std::make_shared<SubExpr>(left, right, Private::TAG);
@@ -99,7 +106,9 @@ private:
 public:
   const ExprPtr left;
   const ExprPtr right;
-
+  std::string dcCode() const{
+	  return left->dcCode() + " " + right->dcCode() + " *";
+  }
   /** Factory function */
   static ExprPtr make(ExprPtr left, ExprPtr right) {
     return std::make_shared<MulExpr>(left, right, Private::TAG);
@@ -123,7 +132,9 @@ private:
 public:
   const ExprPtr left;
   const ExprPtr right;
-
+  std::string dcCode() const{
+	  return left->dcCode() + " " + right-> dcCode() + " /";
+  }
   /** Factory function */
   static ExprPtr make(ExprPtr left, ExprPtr right) {
     return std::make_shared<DivExpr>(left, right, Private::TAG);
