@@ -1,0 +1,337 @@
+Script started on 2020-03-26 16:53:01-04:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="80" LINES="24"]
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ cp -r ~/cs240/ labs/lab8/exerc[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit$ c d[K[Kd ..
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a$ c[Kcd ..
+bmarti38@remote05:/import/linux/home1/bmarti38$ c [K[Kcd s[Kcs240
+bmarti38@remote05:/import/linux/home1/bmarti38/cs240$ gitp u[K[K[K pull
+bmarti38@remote.cs.binghamton.edu's password: 
+remote: Enumerating objects: 142, done.[K
+remote: Counting objects:   0% (1/142)   [Kremote: Counting objects:   1% (2/142)   [Kremote: Counting objects:   2% (3/142)   [Kremote: Counting objects:   3% (5/142)   [Kremote: Counting objects:   4% (6/142)   [Kremote: Counting objects:   5% (8/142)   [Kremote: Counting objects:   6% (9/142)   [Kremote: Counting objects:   7% (10/142)   [Kremote: Counting objects:   8% (12/142)   [Kremote: Counting objects:   9% (13/142)   [Kremote: Counting objects:  10% (15/142)   [Kremote: Counting objects:  11% (16/142)   [Kremote: Counting objects:  12% (18/142)   [Kremote: Counting objects:  13% (19/142)   [Kremote: Counting objects:  14% (20/142)   [Kremote: Counting objects:  15% (22/142)   [Kremote: Counting objects:  16% (23/142)   [Kremote: Counting objects:  17% (25/142)   [Kremote: Counting objects:  18% (26/142)   [Kremote: Counting objects:  19% (27/142)   [Kremote: Counting objects:  20% (29/142)   [Kremote: Counting objects:  21% (30/142)   [Kremote: Counting objects:  22% (32/142)   [Kremote: Counting objects:  23% (33/142)   [Kremote: Counting objects:  24% (35/142)   [Kremote: Counting objects:  25% (36/142)   [Kremote: Counting objects:  26% (37/142)   [Kremote: Counting objects:  27% (39/142)   [Kremote: Counting objects:  28% (40/142)   [Kremote: Counting objects:  29% (42/142)   [Kremote: Counting objects:  30% (43/142)   [Kremote: Counting objects:  31% (45/142)   [Kremote: Counting objects:  32% (46/142)   [Kremote: Counting objects:  33% (47/142)   [Kremote: Counting objects:  34% (49/142)   [Kremote: Counting objects:  35% (50/142)   [Kremote: Counting objects:  36% (52/142)   [Kremote: Counting objects:  37% (53/142)   [Kremote: Counting objects:  38% (54/142)   [Kremote: Counting objects:  39% (56/142)   [Kremote: Counting objects:  40% (57/142)   [Kremote: Counting objects:  41% (59/142)   [Kremote: Counting objects:  42% (60/142)   [Kremote: Counting objects:  43% (62/142)   [Kremote: Counting objects:  44% (63/142)   [Kremote: Counting objects:  45% (64/142)   [Kremote: Counting objects:  46% (66/142)   [Kremote: Counting objects:  47% (67/142)   [Kremote: Counting objects:  48% (69/142)   [Kremote: Counting objects:  49% (70/142)   [Kremote: Counting objects:  50% (71/142)   [Kremote: Counting objects:  51% (73/142)   [Kremote: Counting objects:  52% (74/142)   [Kremote: Counting objects:  53% (76/142)   [Kremote: Counting objects:  54% (77/142)   [Kremote: Counting objects:  55% (79/142)   [Kremote: Counting objects:  56% (80/142)   [Kremote: Counting objects:  57% (81/142)   [Kremote: Counting objects:  58% (83/142)   [Kremote: Counting objects:  59% (84/142)   [Kremote: Counting objects:  60% (86/142)   [Kremote: Counting objects:  61% (87/142)   [Kremote: Counting objects:  62% (89/142)   [Kremote: Counting objects:  63% (90/142)   [Kremote: Counting objects:  64% (91/142)   [Kremote: Counting objects:  65% (93/142)   [Kremote: Counting objects:  66% (94/142)   [Kremote: Counting objects:  67% (96/142)   [Kremote: Counting objects:  68% (97/142)   [Kremote: Counting objects:  69% (98/142)   [Kremote: Counting objects:  70% (100/142)   [Kremote: Counting objects:  71% (101/142)   [Kremote: Counting objects:  72% (103/142)   [Kremote: Counting objects:  73% (104/142)   [Kremote: Counting objects:  74% (106/142)   [Kremote: Counting objects:  75% (107/142)   [Kremote: Counting objects:  76% (108/142)   [Kremote: Counting objects:  77% (110/142)   [Kremote: Counting objects:  78% (111/142)   [Kremote: Counting objects:  79% (113/142)   [Kremote: Counting objects:  80% (114/142)   [Kremote: Counting objects:  81% (116/142)   [Kremote: Counting objects:  82% (117/142)   [Kremote: Counting objects:  83% (118/142)   [Kremote: Counting objects:  84% (120/142)   [Kremote: Counting objects:  85% (121/142)   [Kremote: Counting objects:  86% (123/142)   [Kremote: Counting objects:  87% (124/142)   [Kremote: Counting objects:  88% (125/142)   [Kremote: Counting objects:  89% (127/142)   [Kremote: Counting objects:  90% (128/142)   [Kremote: Counting objects:  91% (130/142)   [Kremote: Counting objects:  92% (131/142)   [Kremote: Counting objects:  93% (133/142)   [Kremote: Counting objects:  94% (134/142)   [Kremote: Counting objects:  95% (135/142)   [Kremote: Counting objects:  96% (137/142)   [Kremote: Counting objects:  97% (138/142)   [Kremote: Counting objects:  98% (140/142)   [Kremote: Counting objects:  99% (141/142)   [Kremote: Counting objects: 100% (142/142)   [Kremote: Counting objects: 100% (142/142), done.[K
+remote: Compressing objects:   0% (1/117)   [Kremote: Compressing objects:   1% (2/117)   [Kremote: Compressing objects:   2% (3/117)   [Kremote: Compressing objects:   3% (4/117)   [Kremote: Compressing objects:   4% (5/117)   [Kremote: Compressing objects:   5% (6/117)   [Kremote: Compressing objects:   6% (8/117)   [Kremote: Compressing objects:   7% (9/117)   [Kremote: Compressing objects:   8% (10/117)   [Kremote: Compressing objects:   9% (11/117)   [Kremote: Compressing objects:  10% (12/117)   [Kremote: Compressing objects:  11% (13/117)   [Kremote: Compressing objects:  12% (15/117)   [Kremote: Compressing objects:  13% (16/117)   [Kremote: Compressing objects:  14% (17/117)   [Kremote: Compressing objects:  15% (18/117)   [Kremote: Compressing objects:  16% (19/117)   [Kremote: Compressing objects:  17% (20/117)   [Kremote: Compressing objects:  18% (22/117)   [Kremote: Compressing objects:  19% (23/117)   [Kremote: Compressing objects:  20% (24/117)   [Kremote: Compressing objects:  21% (25/117)   [Kremote: Compressing objects:  22% (26/117)   [Kremote: Compressing objects:  23% (27/117)   [Kremote: Compressing objects:  24% (29/117)   [Kremote: Compressing objects:  25% (30/117)   [Kremote: Compressing objects:  26% (31/117)   [Kremote: Compressing objects:  27% (32/117)   [Kremote: Compressing objects:  28% (33/117)   [Kremote: Compressing objects:  29% (34/117)   [Kremote: Compressing objects:  30% (36/117)   [Kremote: Compressing objects:  31% (37/117)   [Kremote: Compressing objects:  32% (38/117)   [Kremote: Compressing objects:  33% (39/117)   [Kremote: Compressing objects:  34% (40/117)   [Kremote: Compressing objects:  35% (41/117)   [Kremote: Compressing objects:  36% (43/117)   [Kremote: Compressing objects:  37% (44/117)   [Kremote: Compressing objects:  38% (45/117)   [Kremote: Compressing objects:  39% (46/117)   [Kremote: Compressing objects:  40% (47/117)   [Kremote: Compressing objects:  41% (48/117)   [Kremote: Compressing objects:  42% (50/117)   [Kremote: Compressing objects:  43% (51/117)   [Kremote: Compressing objects:  44% (52/117)   [Kremote: Compressing objects:  45% (53/117)   [Kremote: Compressing objects:  46% (54/117)   [Kremote: Compressing objects:  47% (55/117)   [Kremote: Compressing objects:  48% (57/117)   [Kremote: Compressing objects:  49% (58/117)   [Kremote: Compressing objects:  50% (59/117)   [Kremote: Compressing objects:  51% (60/117)   [Kremote: Compressing objects:  52% (61/117)   [Kremote: Compressing objects:  53% (63/117)   [Kremote: Compressing objects:  54% (64/117)   [Kremote: Compressing objects:  55% (65/117)   [Kremote: Compressing objects:  56% (66/117)   [Kremote: Compressing objects:  57% (67/117)   [Kremote: Compressing objects:  58% (68/117)   [Kremote: Compressing objects:  59% (70/117)   [Kremote: Compressing objects:  60% (71/117)   [Kremote: Compressing objects:  61% (72/117)   [Kremote: Compressing objects:  62% (73/117)   [Kremote: Compressing objects:  63% (74/117)   [Kremote: Compressing objects:  64% (75/117)   [Kremote: Compressing objects:  65% (77/117)   [Kremote: Compressing objects:  66% (78/117)   [Kremote: Compressing objects:  67% (79/117)   [Kremote: Compressing objects:  68% (80/117)   [Kremote: Compressing objects:  69% (81/117)   [Kremote: Compressing objects:  70% (82/117)   [Kremote: Compressing objects:  71% (84/117)   [Kremote: Compressing objects:  72% (85/117)   [Kremote: Compressing objects:  73% (86/117)   [Kremote: Compressing objects:  74% (87/117)   [Kremote: Compressing objects:  75% (88/117)   [Kremote: Compressing objects:  76% (89/117)   [Kremote: Compressing objects:  77% (91/117)   [Kremote: Compressing objects:  78% (92/117)   [Kremote: Compressing objects:  79% (93/117)   [Kremote: Compressing objects:  80% (94/117)   [Kremote: Compressing objects:  81% (95/117)   [Kremote: Compressing objects:  82% (96/117)   [Kremote: Compressing objects:  83% (98/117)   [Kremote: Compressing objects:  84% (99/117)   [Kremote: Compressing objects:  85% (100/117)   [Kremote: Compressing objects:  86% (101/117)   [Kremote: Compressing objects:  87% (102/117)   [Kremote: Compressing objects:  88% (103/117)   [Kremote: Compressing objects:  89% (105/117)   [Kremote: Compressing objects:  90% (106/117)   [Kremote: Compressing objects:  91% (107/117)   [Kremote: Compressing objects:  92% (108/117)   [Kremote: Compressing objects:  93% (109/117)   [Kremote: Compressing objects:  94% (110/117)   [Kremote: Compressing objects:  95% (112/117)   [Kremote: Compressing objects:  96% (113/117)   [Kremote: Compressing objects:  97% (114/117)   [Kremote: Compressing objects:  98% (115/117)   [Kremote: Compressing objects:  99% (116/117)   [Kremote: Compressing objects: 100% (117/117)   [Kremote: Compressing objects: 100% (117/117), done.[K
+Receiving objects:   0% (1/121)   Receiving objects:   1% (2/121)   Receiving objects:   2% (3/121)   Receiving objects:   3% (4/121)   Receiving objects:   4% (5/121)   Receiving objects:   5% (7/121)   Receiving objects:   6% (8/121)   Receiving objects:   7% (9/121)   Receiving objects:   8% (10/121)   Receiving objects:   9% (11/121)   Receiving objects:  10% (13/121)   Receiving objects:  11% (14/121)   Receiving objects:  12% (15/121)   Receiving objects:  13% (16/121)   Receiving objects:  14% (17/121)   Receiving objects:  15% (19/121)   Receiving objects:  16% (20/121)   Receiving objects:  17% (21/121)   Receiving objects:  18% (22/121)   Receiving objects:  19% (23/121)   Receiving objects:  20% (25/121)   Receiving objects:  21% (26/121)   Receiving objects:  22% (27/121)   Receiving objects:  23% (28/121)   Receiving objects:  24% (30/121)   Receiving objects:  25% (31/121)   Receiving objects:  26% (32/121)   Receiving objects:  27% (33/121)   Receiving objects:  28% (34/121)   Receiving objects:  29% (36/121)   Receiving objects:  30% (37/121)   Receiving objects:  31% (38/121)   Receiving objects:  32% (39/121)   Receiving objects:  33% (40/121)   Receiving objects:  34% (42/121)   Receiving objects:  35% (43/121)   Receiving objects:  36% (44/121)   Receiving objects:  37% (45/121)   Receiving objects:  38% (46/121)   Receiving objects:  39% (48/121)   Receiving objects:  40% (49/121)   Receiving objects:  41% (50/121)   Receiving objects:  42% (51/121)   Receiving objects:  43% (53/121)   Receiving objects:  44% (54/121)   Receiving objects:  45% (55/121)   Receiving objects:  46% (56/121)   Receiving objects:  47% (57/121)   Receiving objects:  48% (59/121)   Receiving objects:  49% (60/121)   Receiving objects:  50% (61/121)   Receiving objects:  51% (62/121)   Receiving objects:  52% (63/121)   Receiving objects:  53% (65/121)   Receiving objects:  54% (66/121)   Receiving objects:  55% (67/121)   Receiving objects:  56% (68/121)   Receiving objects:  57% (69/121)   Receiving objects:  58% (71/121)   Receiving objects:  59% (72/121)   Receiving objects:  60% (73/121)   Receiving objects:  61% (74/121)   Receiving objects:  62% (76/121)   Receiving objects:  63% (77/121)   Receiving objects:  64% (78/121)   Receiving objects:  65% (79/121)   Receiving objects:  66% (80/121)   Receiving objects:  67% (82/121)   Receiving objects:  68% (83/121)   Receiving objects:  69% (84/121)   Receiving objects:  70% (85/121)   Receiving objects:  71% (86/121)   Receiving objects:  72% (88/121)   Receiving objects:  73% (89/121)   Receiving objects:  74% (90/121)   Receiving objects:  75% (91/121)   Receiving objects:  76% (92/121)   Receiving objects:  77% (94/121)   Receiving objects:  78% (95/121)   Receiving objects:  79% (96/121)   Receiving objects:  80% (97/121)   Receiving objects:  81% (99/121)   Receiving objects:  82% (100/121)   Receiving objects:  83% (101/121)   Receiving objects:  84% (102/121)   Receiving objects:  85% (103/121)   Receiving objects:  86% (105/121)   Receiving objects:  87% (106/121)   Receiving objects:  88% (107/121)   remote: Total 121 (delta 66), reused 0 (delta 0)[K
+Receiving objects:  89% (108/121)   Receiving objects:  90% (109/121)   Receiving objects:  91% (111/121)   Receiving objects:  92% (112/121)   Receiving objects:  93% (113/121)   Receiving objects:  94% (114/121)   Receiving objects:  95% (115/121)   Receiving objects:  96% (117/121)   Receiving objects:  97% (118/121)   Receiving objects:  98% (119/121)   Receiving objects:  99% (120/121)   Receiving objects: 100% (121/121)   Receiving objects: 100% (121/121), 888.68 KiB | 7.79 MiB/s, done.
+Resolving deltas:   0% (0/66)   Resolving deltas:   1% (1/66)   Resolving deltas:   6% (4/66)   Resolving deltas:  10% (7/66)   Resolving deltas:  12% (8/66)   Resolving deltas:  19% (13/66)   Resolving deltas:  27% (18/66)   Resolving deltas:  28% (19/66)   Resolving deltas:  36% (24/66)   Resolving deltas:  39% (26/66)   Resolving deltas:  42% (28/66)   Resolving deltas:  43% (29/66)   Resolving deltas:  45% (30/66)   Resolving deltas:  46% (31/66)   Resolving deltas:  54% (36/66)   Resolving deltas:  59% (39/66)   Resolving deltas:  63% (42/66)   Resolving deltas:  68% (45/66)   Resolving deltas:  72% (48/66)   Resolving deltas:  83% (55/66)   Resolving deltas:  92% (61/66)   Resolving deltas: 100% (66/66)   Resolving deltas: 100% (66/66), completed with 13 local objects.
+From ssh://remote.cs.binghamton.edu/~umrigar/git-repos/cs240
+   c77263a..7bfd5e5  master     -> origin/master
+Updating c77263a..7bfd5e5
+Fast-forward
+ index.html                                 |  64 [32m++[m[31m--[m
+ index.umt                                  |  10 [32m+[m
+ labs/index.html                            |   2 [32m+[m
+ labs/index.umt                             |   6 [32m+[m[31m-[m
+ labs/lab8/exercises/3-subshells/Makefile   |   3 [32m+[m
+ labs/lab8/lab8.html                        | 228 [32m+++++++++++++[m
+ labs/lab8/lab8.pdf                         | Bin [31m0[m -> [32m108613[m bytes
+ labs/lab8/lab8.umt                         | 395 [32m++++++++++++++++++++++[m
+ labs/lab8/lab8/hl-fine_blue.css            |  19 [32m++[m
+ labs/lab8/lab8/hl-fine_blue.sty            |  19 [32m++[m
+ online/videos/cs240a/index.html            |  10 [32m+[m[31m-[m
+ online/videos/cs240a/index.umt             |  11 [32m+[m
+ online/videos/cs240b/index.html            |  16 [32m+[m[31m-[m
+ online/videos/cs240b/index.umt             |  14 [32m+[m[31m-[m
+ slides/collections2/code/.gitignore        |   2 [32m+[m
+ slides/collections2/code/Makefile          |  12 [32m+[m
+ slides/collections2/code/int-bst.cc        | 167 [32m+++++++++[m
+ slides/collections2/code/maxheap.cc        | 147 [32m++++++++[m
+ slides/collections2/collections2.html      | 522 [32m++++++++++++++++++++[m[31m---------[m
+ slides/collections2/collections2.pdf       | Bin [31m309784[m -> [32m513303[m bytes
+ slides/collections2/collections2.umt       | 365 [32m++++++++++++++++++[m[31m--[m
+ slides/collections2/figs/alt-heaps.png     | Bin [31m0[m -> [32m47090[m bytes
+ slides/collections2/figs/bst-examples.png  | Bin [31m0[m -> [32m33240[m bytes
+ slides/collections2/figs/bst-remove.png    | Bin [31m0[m -> [32m20090[m bytes
+ slides/collections2/figs/heap-build.png    | Bin [31m0[m -> [32m12951[m bytes
+ slides/collections2/figs/heap-siftdown.png | Bin [31m0[m -> [32m32836[m bytes
+ slides/collections2/figs/remove-min.png    | Bin [31m0[m -> [32m17385[m bytes
+ slides/collections2/figs/wrong-remove.png  | Bin [31m0[m -> [32m3961[m bytes
+ 28 files changed, 1788 insertions(+), 224 deletions(-)
+ create mode 100644 labs/lab8/exercises/3-subshells/Makefile
+ create mode 100644 labs/lab8/lab8.html
+ create mode 100644 labs/lab8/lab8.pdf
+ create mode 100644 labs/lab8/lab8.umt
+ create mode 100644 labs/lab8/lab8/hl-fine_blue.css
+ create mode 100644 labs/lab8/lab8/hl-fine_blue.sty
+ create mode 100644 slides/collections2/code/.gitignore
+ create mode 100644 slides/collections2/code/Makefile
+ create mode 100644 slides/collections2/code/int-bst.cc
+ create mode 100644 slides/collections2/code/maxheap.cc
+ create mode 100644 slides/collections2/figs/alt-heaps.png
+ create mode 100644 slides/collections2/figs/bst-examples.png
+ create mode 100644 slides/collections2/figs/bst-remove.png
+ create mode 100644 slides/collections2/figs/heap-build.png
+ create mode 100644 slides/collections2/figs/heap-siftdown.png
+ create mode 100644 slides/collections2/figs/remove-min.png
+ create mode 100644 slides/collections2/figs/wrong-remove.png
+bmarti38@remote05:/import/linux/home1/bmarti38/cs240$ cd ..
+bmarti38@remote05:/import/linux/home1/bmarti38$ cd i240a/
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a$ cd la[K[K[K[K[Kls
+README.md  submit
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a$ cd submit/
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit$ ls[K[Kcd lab8/
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ ls
+lab8.LOG
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ cd -[K[K[K[Kp -r [K[K[K[K[Kcp -r ~/cs240/ labs/lab8/exercises/
+cp: missing destination file operand after '/home/bmarti38/cs240/labs/lab8/exercises/'
+Try 'cp --help' for more information.
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ cp -r ~/cs240/labs/lab8/exercises/ .
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ [Kbmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ [Kbmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ [Kbmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ [Kbmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ [Kbmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ [Kbmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ [Kbmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ [Kbmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ [Kbmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ [Kbmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ [Kbmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ env
+SHELL=/bin/bash
+SESSION_MANAGER=local/remote05:@/tmp/.ICE-unix/2333515,unix/remote05:/tmp/.ICE-unix/2333515
+WINDOWID=39845890
+QT_ACCESSIBILITY=1
+COLORTERM=truecolor
+DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+SSH_AUTH_SOCK=/tmp/ssh-WGRX9JIrF2p8/agent.2333598
+SSH_AGENT_PID=2333599
+STARTUP=/usr/bin/env LD_LIBRARY_PATH= xfce4-session
+GTK_MODULES=gail:atk-bridge
+PWD=/import/linux/home1/bmarti38/i240a/submit/lab8
+LOGNAME=bmarti38
+XDG_SESSION_TYPE=tty
+XAUTHORITY=/home/bmarti38/.Xauthority
+J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+X2GO_SESSION=bmarti38-50-1585255558_stDXFCE_dp32
+HOME=/home/bmarti38
+LANG=en_US.UTF-8
+VTE_VERSION=5402
+PULSE_CLIENTCONFIG=/home/bmarti38/.x2go/C-bmarti38-50-1585255558_stDXFCE_dp32/.pulse-client.conf
+SSH_CONNECTION=98.116.132.20 50414 128.226.114.205 22
+QT_GRAPHICSSYSTEM=native
+XDG_SESSION_CLASS=user
+TERM=xterm-256color
+X2GO_AGENT_PID=2333300
+J2SDKDIR=/usr/lib/jvm/java-8-oracle
+USER=bmarti38
+DISPLAY=:50.0
+SHLVL=3
+XDG_SESSION_ID=188482
+LD_LIBRARY_PATH=
+XDG_RUNTIME_DIR=/run/user/14635
+SSH_CLIENT=98.116.132.20 50414 22
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-LrscdvjoxT,guid=804e07883542927b907640495e7d1490
+MAIL=/var/mail/bmarti38
+OLDPWD=/import/linux/home1/bmarti38/i240a/submit
+XSESSION_EXEC=xfce4-session
+_=/usr/bin/env
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ echo $HOME
+/home/bmarti38
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ ehc[K[Kcho $xxx
+
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ xxx=123
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ env | grep xxx[K[K[K[K[K[K[K[K[K[K[K[K[K[Kxxx=123echo $xxx
+123
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ echo $xxx[2Pxxx=123echo $xxx[2Pxxx=123echo $xxx[Kenv | grep xxx
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ export xxx
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ env[K[K[Kenv |g[K grep xx
+xxx=123
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ export xx=456
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ env | grev[K[[Kp xx
+xxx=123
+xx=456
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ grep xx
+f 
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ gre[K[K[Kenv | grep xxx
+xxx=123
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ env | grepp [K[K xx
+xxx=123
+xx=456
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ [[Kp=$PATH
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ echp[Ko $p
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ ehc[K[Kchp [K[Kp $PATH
+bash: echp: command not found
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ echo $PATRH[K[KH
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ echo [K PPAT[K[K[KATH
+PATH
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ echo p
+p
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ echo $o[Kp
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ export p
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ env | grep p
+SESSION_MANAGER=local/remote05:@/tmp/.ICE-unix/2333515,unix/remote05:/tmp/.ICE-unix/2333515
+SSH_AUTH_SOCK=/tmp/ssh-WGRX9JIrF2p8/agent.2333598
+PWD=/import/linux/home1/bmarti38/i240a/submit/lab8
+p=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+X2GO_SESSION=bmarti38-50-1585255558_stDXFCE_dp32
+PULSE_CLIENTCONFIG=/home/bmarti38/.x2go/C-bmarti38-50-1585255558_stDXFCE_dp32/.pulse-client.conf
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-LrscdvjoxT,guid=804e07883542927b907640495e7d1490
+OLDPWD=/import/linux/home1/bmarti38/i240a/submit
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ $p[K[K$PATH [K= [K
+bash: /usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin=: No such file or directory
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ $p[KPATH=''
+bash: /usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin=: No such file or directory
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ echo 4p[K[K4
+4
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ $p[K[Kecho $p
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ set [K[K[K[Kset $PATh[KH[K[K[K[K[K[K[K[K[Kprintev[Knv p
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ PAth[K[KTH [K=''
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ echo P[K$PATH
+
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ ls
+bash: ls: No such file or directory
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ PATH=$p
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ ls ; wc *
+exercises  lab8.LOG
+wc: exercises: Is a directory
+      0       0       0 exercises
+    152    2207   24576 lab8.LOG
+    152    2207   24576 total
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ cd exercises/
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8/exercises$ ls
+3-subshells
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8/exercises$ cd ,[K..
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ cd[K[Kif[K[Kfid[Knd -L ~/cs240 -name '*.c'
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ find -L [K[K[K[K[K[K[K[Kfind -L ~/cs240 -name '*.c'[K'  | wc -l
+0
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ find ~/cc[Ks240 -name '*.c'
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ find ~/cs240 -name '*.c' | w c -l[Kl
+0
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ find ~/cs240 -name '*.c' | wc -l[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc' | wc -l[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+0
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ find ~/cs240 -name '*.cc' | wc -l[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' | wc[1P -l[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-L ~/cs240 -name '*.c' | wc -l[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc' [1@|[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+91
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ find / -name '*.c' 2>dev/[K[K[K[K/dev/nu ll >c-files [K.lst &
+[1] 2347673
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ jobs
+[1]+  Running                 find / -name '*.c' 2> /dev/null > c-files.lst &
+bmarti38@remote05:/import/linux/home1/bmarti38/i240a/submit/lab8$ kill %1ki[K[K[K1[K[K[K[K[K[K[Kcd ~
+bmarti38@remote05:~$ pwf[Kd
+/home/bmarti38
+bmarti38@remote05:~$ xx [K=2[K123
+bmarti38@remote05:~$ pwd ;[K[K; echo $xx (xx==[Kabc; cd /; echk[Kho[K[Ko $xx); pwd; echo $xx
+bash: syntax error near unexpected token `('
+bmarti38@remote05:~$ pwd [K; echo [K$xx[K[K[K $xx
+/home/bmarti38
+123
+bmarti38@remote05:~$ pwd; echo $xx; (xx =[K[K=abc; cd /; pwd; echo$xx); w[Kpwd; echo $xx
+/home/bmarti38
+123
+/
+bash: echoabc: command not found
+/home/bmarti38
+123
+bmarti38@remote05:~$ pwd; echo $xx; (xx=abc; cd /; pwd; echo$xx); pwd; echo $xx[1@ 
+/home/bmarti38
+123
+/
+abc
+/home/bmarti38
+123
+bmarti38@remote05:~$ c [Kcd [K[K[Kd i240a/submit/lab8/exercises/2[K3-subshells/
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ ls
+Makefile
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ make
+cd ~/cs240
+ls
+Makefile
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ ges[Kdit Makefile 
+
+(gedit:2351683): Gtk-[1;33mWARNING[0m **: [34m17:50:58.563[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+[1]+  Exit 1                  find / -name '*.c' 2> /dev/null > c-files.lst  (wd: /import/linux/home1/bmarti38/i240a/submit/lab8)
+(wd now: ~/i240a/submit/lab8/exercises/3-subshells)
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ gedit Makefile 
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ gedit Makefile make[K
+cd ~/cs240 && ls
+announce.html  bin	exams-quizzes  index.html  misc      README.md
+announce.umt   crontab	exercises      index.umt   online    slides
+assets	       docs	hws	       labs	   projects  umt.make
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ makegedit Makefile 
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ grep -i 'MAIN' [K(' `find ~cs24[K[K[K[K/cs240/pr ojects -name '*.cc'`
+bash: syntax error near unexpected token `('
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ grep -i 'MAIN'(' `find ~/cs240/projects -name '*.cc'`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C(' `find ~/cs240/proj[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+/home/bmarti38/cs240/projects/prj1-sol/wordcounts.cc:main(int argc, char *argv[])
+/home/bmarti38/cs240/projects/prj2/extras/seq-test.cc:int main(int argc, char *argv[]) {
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ wc - l '*.cc'[K( [K' `find [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kl '[K$(find [K[K[K[K[K[K[K'`fins[Kd ~/cs240/projects [K -na ,e[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca me '*.cc'~[K`
+> bash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ wc -l '`find ~/cs240/projects -name '*.cc'`[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K ('find[K[K[K[K[Kd[Kfind [K[K[K[K[K`find ~cs2[K[K[K/cs240/projr[Kects/[K -na me '*cc[K[K.cc'`
+bash: syntax error near unexpected token `('
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ wc -l (`find ~/cs240/projects -name '*.cc'`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' (`find ~/cs240/projects -na[1@m[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C= (`find ~/cs240/projects -n[1@a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C (`find ~/cs240/projects -na[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C (`find ~/cs240/projects -nam[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'(`find ~/cs240/projects -na[1@m[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+> iobev
+> bash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ wc -l
+d
+dv
+
+'
+4
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ wc -l [K[K[K[K[K[K$(we[Kc -l (find [K[K[K[K[K[K$(find !/cs240[K[K[K[K[K[K[K~/cs240/projects - name '*.ccC[K'))
+bash: 159: command not found
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ wc -l [K[K[K[K[K[K`wc -l ~/cs240/rp[K[Kprokec[K[K[Kjects [K -name '*. cc'`
+wc: invalid option -- 'n'
+Try 'wc --help' for more information.
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ $(we[Kc-[K 0-[K[K-l([K)
+e
+f
+g
+bash: 3: command not found
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ $(wc -l) $(find ~/[K[K[K[K[K[K[Kfind ~/cs240/projects -name '*.cc')
+w
+f
+v
+ 
+f
+bash: 5: command not found
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ $(wc -l) $(find ~/cs240/projects -name '*.cc')[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc -l $(find ~/cs240/projects -name '*.cc')
+ 159 /home/bmarti38/cs240/projects/prj1-sol/wordcounts.cc
+ 123 /home/bmarti38/cs240/projects/prj2/extras/command.cc
+  72 /home/bmarti38/cs240/projects/prj2/extras/seq-test.cc
+ 354 total
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ scho[K[K[K[Kecho ?:
+?:
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ s=e[K[K[Kecho $?
+0
+bmarti38@remote05:~/i240a/submit/lab8/exercises/3-subshells$ cd ..
+bmarti38@remote05:~/i240a/submit/lab8/exercises$ echo $?
+0
+bmarti38@remote05:~/i240a/submit/lab8/exercises$ fasl[K[Klse [K; echo 123
+123
+bmarti38@remote05:~/i240a/submit/lab8/exercises$ treu[K[Kue; echo 123
+123
+bmarti38@remote05:~/i240a/submit/lab8/exercises$ 
+bmarti38@remote05:~/i240a/submit/lab8/exercises$ fasl[K[Klse && echo 123
+bmarti38@remote05:~/i240a/submit/lab8/exercises$ true $$ echo 123
+bmarti38@remote05:~/i240a/submit/lab8/exercises$ flase || echo 123
+bash: flase: command not found
+123
+bmarti38@remote05:~/i240a/submit/lab8/exercises$ false || echo 123
+123
+bmarti38@remote05:~/i240a/submit/lab8/exercises$ true |[K[K[K e[K[Ke || echo 2[K123
+bmarti38@remote05:~/i240a/submit/lab8/exercises$ sleep 123[K[K0 && echo 123[K[K[K[K[K[K[K[K[K[K[K[K[K[K5 && echo 123
+123
+bmarti38@remote05:~/i240a/submit/lab8/exercises$ cd i2[K[K~
+bmarti38@remote05:~$ cd i240a/
+bmarti38@remote05:~/i240a$ git branch -l
+[?1h=  lab06[m[m
+  lab3[m[m
+  lab5[m[m
+* [32mlab8[m[m
+  master[m[m
+  prj1-sol[m[m
+  prj2-sol[m[m
+[K[?1l>bmarti38@remote05:~/i240a$ git merge -m 'merged master [K' master 
+Already
